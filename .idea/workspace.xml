@@ -5,71 +5,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="17c072ad-37de-490a-85a5-aaa222ba47c5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/lumexpress/config/ProjectConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/lumexpress/data/dtos/requests/CreateProductRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/lumexpress/data/dtos/requests/CustomerProfileUpdateRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/lumexpress/data/dtos/requests/CustomerRegisterRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/lumexpress/data/dtos/requests/GetAllItemRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/lumexpress/data/dtos/requests/LoginRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/lumexpress/data/dtos/requests/NotificationRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/lumexpress/data/dtos/requests/UpdateProductRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/lumexpress/data/dtos/responses/CreateProductResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/lumexpress/data/dtos/responses/CustomerRegisterResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/lumexpress/data/dtos/responses/LoginResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/lumexpress/data/dtos/responses/UpdateProductResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/lumexpress/data/models/Admin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/lumexpress/data/models/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/lumexpress/data/models/LumAppUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/lumexpress/data/models/Notification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/lumexpress/data/models/Vendor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/lumexpress/data/models/VerificationToken.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/lumexpress/data/repositories/AddressRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/lumexpress/data/repositories/AdminRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/lumexpress/data/repositories/CartRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/lumexpress/data/repositories/CustomerRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/lumexpress/data/repositories/ItemRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/lumexpress/data/repositories/NotificationRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/lumexpress/data/repositories/PaymentRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/lumexpress/data/repositories/ProductRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/lumexpress/data/repositories/StoreRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/lumexpress/data/repositories/VendorRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/lumexpress/data/repositories/VerificationTokenRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/lumexpress/exceptions/ProductNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/lumexpress/services/CartService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/lumexpress/services/CartServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/lumexpress/services/CustomerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/lumexpress/services/CustomerServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/lumexpress/services/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/lumexpress/services/VerificationTokenService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/lumexpress/services/VerificationTokenServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/lumexpress/services/cloud/CloudService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/lumexpress/services/cloud/CloudServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/lumexpress/services/notifications/NotificationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/lumexpress/services/productServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/lumexpress/utils/Mapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/testProduct.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/africa/semicolon/lumexpress/data/repositories/VerificationTokenRepositoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/africa/semicolon/lumexpress/exceptions/VerificationTokenException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/africa/semicolon/lumexpress/services/CustomerServiceImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/africa/semicolon/lumexpress/services/productServiceImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jpa-buddy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/lumexpress/controller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/lumexpress/data/dtos/requests/EmailNotificationRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/lumexpress/services/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/lumexpress/services/Userservice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/lumexpress/services/notifications/EmailNotificationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/lumexpress/services/notifications/EmailNotificationServiceImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/lumexpress/utils/LumExpressUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/welcome.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/africa/semicolon/lumexpress/controller/CustomerControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/africa/semicolon/lumexpress/services/UserServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/africa/semicolon/lumexpress/services/VerificationTokenServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/africa/semicolon/lumexpress/services/notifications/EmailNotificationServiceImpTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/africa/semicolon/lumexpress/utils/LumExpressUtilsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/africa/semicolon/lumexpress/data/models/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/lumexpress/data/models/Address.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/africa/semicolon/lumexpress/data/models/Authority.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/lumexpress/data/models/Authority.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/africa/semicolon/lumexpress/data/models/Buyer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/africa/semicolon/lumexpress/data/models/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/lumexpress/data/models/Cart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/africa/semicolon/lumexpress/data/models/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/lumexpress/data/models/Category.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/africa/semicolon/lumexpress/data/models/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/lumexpress/data/models/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/africa/semicolon/lumexpress/data/models/Payment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/lumexpress/data/models/Payment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/africa/semicolon/lumexpress/data/models/PaymentType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/lumexpress/data/models/PaymentType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/africa/semicolon/lumexpress/data/models/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/lumexpress/data/models/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/africa/semicolon/lumexpress/data/models/Seller.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/africa/semicolon/lumexpress/data/models/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/lumexpress/data/models/Store.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/africa/semicolon/lumexpress/data/models/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/banner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/banner.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/africa/semicolon/lumexpress/data/dtos/requests/CustomerRegisterRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/lumexpress/data/dtos/requests/CustomerRegisterRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/africa/semicolon/lumexpress/data/dtos/requests/LoginRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/lumexpress/data/dtos/requests/LoginRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/africa/semicolon/lumexpress/data/dtos/responses/LoginResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/lumexpress/data/dtos/responses/LoginResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/africa/semicolon/lumexpress/data/models/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/lumexpress/data/models/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/africa/semicolon/lumexpress/data/models/LumAppUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/lumexpress/data/models/LumAppUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/africa/semicolon/lumexpress/data/models/VerificationToken.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/lumexpress/data/models/VerificationToken.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/africa/semicolon/lumexpress/data/repositories/AdminRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/lumexpress/data/repositories/AdminRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/africa/semicolon/lumexpress/data/repositories/CustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/lumexpress/data/repositories/CustomerRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/africa/semicolon/lumexpress/data/repositories/VendorRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/lumexpress/data/repositories/VendorRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/africa/semicolon/lumexpress/data/repositories/VerificationTokenRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/lumexpress/data/repositories/VerificationTokenRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/africa/semicolon/lumexpress/services/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/lumexpress/services/CustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/africa/semicolon/lumexpress/services/CustomerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/lumexpress/services/CustomerServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/africa/semicolon/lumexpress/services/VerificationTokenService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/lumexpress/services/VerificationTokenService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/africa/semicolon/lumexpress/services/VerificationTokenServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/lumexpress/services/VerificationTokenServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/africa/semicolon/lumexpress/data/repositories/VerificationTokenRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/africa/semicolon/lumexpress/data/repositories/VerificationTokenRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/africa/semicolon/lumexpress/exceptions/VerificationTokenException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/lumexpress/exceptions/VerificationTokenException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/africa/semicolon/lumexpress/services/CustomerServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/africa/semicolon/lumexpress/services/CustomerServiceImplTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,8 +52,8 @@
       <list>
         <option value="Enum" />
         <option value="Interface" />
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -164,12 +132,19 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor.code.editing&quot;,
     &quot;spring.configuration.checksum&quot;: &quot;d456187b0ca537fe9ab63ef43c8714f4&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;h2&quot;,
+      &quot;mysql&quot;
+    ]
   }
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
-      <recent name="africa.semicolon.lumexpress.exceptions" />
       <recent name="africa.semicolon.lumexpress.data.dtos.requests" />
+      <recent name="africa.semicolon.lumexpress.services.notifications" />
+      <recent name="africa.semicolon.lumexpress.exceptions" />
       <recent name="africa.semicolon.lumexpress.data.dtos.responses" />
       <recent name="africa.semicolon.lumexpress.data.models" />
     </key>
@@ -179,60 +154,50 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="africa.semicolon.lumexpress.exceptions" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="africa.semicolon.lumexpress.data.repositories" />
+      <recent name="africa.semicolon.lumexpress.controller" />
       <recent name="africa.semicolon.lumexpress.services" />
+      <recent name="africa.semicolon.lumexpress.utils" />
+      <recent name="africa.semicolon.lumexpress.services.notifications" />
+      <recent name="africa.semicolon.lumexpress.data.repositories" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.VerificationTokenRepositoryTest.findByToken">
-    <configuration name="VerificationTokenRepositoryTest.findByToken" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.CustomerServiceImplTest">
+    <configuration name="CustomerControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lum-express" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="africa.semicolon.lumexpress.data.repositories.*" />
+          <option name="PATTERN" value="africa.semicolon.lumexpress.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="africa.semicolon.lumexpress.data.repositories" />
-      <option name="MAIN_CLASS_NAME" value="africa.semicolon.lumexpress.data.repositories.VerificationTokenRepositoryTest" />
-      <option name="METHOD_NAME" value="findByToken" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="VerificationTokenRepositoryTest.findByUserEmail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="lum-express" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="africa.semicolon.lumexpress.data.repositories.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="africa.semicolon.lumexpress.data.repositories" />
-      <option name="MAIN_CLASS_NAME" value="africa.semicolon.lumexpress.data.repositories.VerificationTokenRepositoryTest" />
-      <option name="METHOD_NAME" value="findByUserEmail" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="productServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="lum-express" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="africa.semicolon.lumexpress.services.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="africa.semicolon.lumexpress.services" />
-      <option name="MAIN_CLASS_NAME" value="africa.semicolon.lumexpress.services.productServiceImplTest" />
+      <option name="PACKAGE_NAME" value="africa.semicolon.lumexpress.controller" />
+      <option name="MAIN_CLASS_NAME" value="africa.semicolon.lumexpress.controller.CustomerControllerTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="productServiceImplTest.updateProduct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CustomerControllerTest.registerControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lum-express" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="africa.semicolon.lumexpress.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="africa.semicolon.lumexpress.controller" />
+      <option name="MAIN_CLASS_NAME" value="africa.semicolon.lumexpress.controller.CustomerControllerTest" />
+      <option name="METHOD_NAME" value="registerControllerTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lum-express" />
       <extension name="coverage">
         <pattern>
@@ -241,33 +206,56 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="africa.semicolon.lumexpress.services" />
-      <option name="MAIN_CLASS_NAME" value="africa.semicolon.lumexpress.services.productServiceImplTest" />
-      <option name="METHOD_NAME" value="updateProduct" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="africa.semicolon.lumexpress.services.CustomerServiceImplTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LumExpressApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="VerificationTokenRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lum-express" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="africa.semicolon.lumexpress.LumExpressApplication" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="africa.semicolon.lumexpress.*" />
+          <option name="PATTERN" value="africa.semicolon.lumexpress.data.repositories.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="africa.semicolon.lumexpress.data.repositories" />
+      <option name="MAIN_CLASS_NAME" value="africa.semicolon.lumexpress.data.repositories.VerificationTokenRepositoryTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VerificationTokenServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lum-express" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="africa.semicolon.lumexpress.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="africa.semicolon.lumexpress.services" />
+      <option name="MAIN_CLASS_NAME" value="africa.semicolon.lumexpress.services.VerificationTokenServiceImplTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LumExpressApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="lum-express" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="africa.semicolon.lumexpress.LumExpressApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.VerificationTokenRepositoryTest.findByToken" />
-        <item itemvalue="JUnit.VerificationTokenRepositoryTest.findByUserEmail" />
-        <item itemvalue="JUnit.productServiceImplTest" />
-        <item itemvalue="JUnit.productServiceImplTest.updateProduct" />
-        <item itemvalue="Spring Boot.LumExpressApplication (1)" />
+        <item itemvalue="JUnit.CustomerServiceImplTest" />
+        <item itemvalue="JUnit.VerificationTokenServiceImplTest" />
+        <item itemvalue="JUnit.CustomerControllerTest" />
+        <item itemvalue="JUnit.CustomerControllerTest.registerControllerTest" />
+        <item itemvalue="JUnit.VerificationTokenRepositoryTest" />
       </list>
     </recent_temporary>
   </component>
@@ -293,7 +281,11 @@
       <workItem from="1664126726091" duration="461000" />
       <workItem from="1664952701846" duration="17603000" />
       <workItem from="1665040870119" duration="520000" />
-      <workItem from="1665131094035" duration="10354000" />
+      <workItem from="1665131094035" duration="19913000" />
+      <workItem from="1665410548674" duration="44000" />
+      <workItem from="1665476155567" duration="25325000" />
+      <workItem from="1665563278818" duration="1371000" />
+      <workItem from="1665649064781" duration="2374000" />
     </task>
     <servers />
   </component>

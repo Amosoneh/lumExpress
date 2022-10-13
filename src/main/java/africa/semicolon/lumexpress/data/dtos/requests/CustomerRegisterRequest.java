@@ -8,6 +8,8 @@ import lombok.*;
 @NoArgsConstructor
 @Builder
 public class CustomerRegisterRequest {
+    private String firstName;
+    private String lastName;
     private String country;
     private String email;
     private String password;

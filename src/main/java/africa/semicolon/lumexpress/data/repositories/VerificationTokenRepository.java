@@ -1,5 +1,6 @@
 package africa.semicolon.lumexpress.data.repositories;
 
+import africa.semicolon.lumexpress.data.models.Customer;
 import africa.semicolon.lumexpress.data.models.VerificationToken;
 import org.springframework.data.jpa.repository.JpaRepository;
 

@@ -1,10 +1,9 @@
 package africa.semicolon.lumexpress.data.dtos.requests;
 
-import lombok.Getter;
-import lombok.Setter;
+import lombok.*;
 
 @Setter
-@Getter
+@Getter @AllArgsConstructor @NoArgsConstructor @Builder
 public class LoginRequest {
     private String email;
     private String password;
